@@ -1,0 +1,241 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main {
+   width: 600px;
+   min-width: 300px;
+    /* padding: 10px; */
+    margin: 30px;
+    border: 1px solid black;
+    background-color:#FAF6E3;
+}
+#header {
+    background-color:gray;
+    width: 100%;
+    height: 100px;
+    display: flex; justify-content: center;
+}
+#header > h1 {
+    text-align: center;
+    font-size: 30px;
+
+}
+/* header completed */
+#content {
+   
+    display: flex;
+   
+}
+#left {
+   
+padding: 20px;
+ width: 50%;
+ height: 100%;
+
+}
+#right {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+fieldset{
+width: 230px;
+}
+/* #input-about{
+    margin : 16px;
+} */
+
+#formdiv{
+    background-color: gray ;
+    width: 650px ;
+    height: auto;
+    padding: 10px 20px 20px 20px;
+    margin: 25px;   
+}
+label{
+    font-size: 1.5rem;
+    padding: 7px 0 7px 0;
+
+}
+#occupationLabel{
+    padding-left: 250px;
+}
+#occupation{
+    background-color: #fafafa;
+    font-size: 1rem;
+    width: 220px ;
+    margin-left: 86px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+}
+#contactLabel{
+padding-left:250px ;
+}
+#number{
+    background-color: #fafafa;
+    font-size: 1rem;
+    width: 220px ;
+    margin-left: 86px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+}
+
+#about{
+    background-color: #fafafa;
+    font-size: 1rem;
+    width: 215px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 30px;        
+}
+#skillsLabel{
+padding-left: 255PX;
+}
+#skills{
+    background-color: #fafafa;
+    font-size: 1rem;
+    width: 220px ;
+    margin-left: 86px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+    
+}
+#experienceLabel{
+    
+    padding-left: 208px;
+}
+#experience{
+    background-color: #fafafa;
+    font-size: 1rem;
+    width: 220px ;
+    margin-left: 86px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+    
+}
+#input-about{
+    
+    padding: 4px;
+}
+#name{
+    background-color: #fafafa;
+    font-size: 1rem;
+    width: 220px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 30px;
+}
+#email{
+    background-color: #fafafa;
+    font-size: 1rem;
+    width: 220px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 30px;
+}
+#education{
+    background-color: #fafafa;
+    font-size: 1rem;
+    width: 220px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 30px;
+}
+#goals{
+    background-color: #fafafa;
+    font-size: 1rem;
+    width: 220px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 30px;    
+}
+#resumeForm{
+text-align: center;
+font-size:50px ;
+padding: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+/* #submitbtn{
+    margin-left: 280px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    height: 40px;
+    width: 100px;
+    padding: 5px 9px;   
+    border-radius: 20px;
+    border: 1px solid black;
+    
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#submitbtn {background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%)}
+#submitbtn {
+   margin-left: 280px;
+   padding: 5px 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ #submitbtn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ hr{
+    margin-bottom: 50px;
+    border: 0.1px solid rgb(51, 50, 50);
+ }
+
+ #Createcv {background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%)}
+#Createcv {
+   margin-left: 280px;
+   margin-bottom: 20px;
+   padding: 5px 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: #FAF6E3;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ #Createcv:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+

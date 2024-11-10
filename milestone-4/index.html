@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackathon Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <main id="main">
+        <section id="header">
+          <h1 id="header-name">Atif Bilal Khatri</h1>
+        </section>
+        <section id="content">
+          <div id="left">
+            <section>
+              <fieldset>
+                <legend>Personal Details</legend>
+                <p id="input-name">Name : Atif Bilal</p>
+                <p id="input-occupation">Occupation : Bussiness Man</p>
+                <p id="input-number">Number : 1234567890</p>
+                <p id="input-email">Emial : username@gmail.com</p>
+              </fieldset>
+            </section>
+            <section>
+              <fieldset>
+                <legend>Education</legend>
+                <ul id="educationUi">
+                  <li>Matriculation</li>
+                  <li>Enter (Hssc)</li>
+                  <li>Graduated</li>
+                  <li>Diploma</li>
+                </ul>
+              </fieldset>
+            </section>
+            <section>
+              <fieldset>
+                <legend>Goals</legend>
+                <p id="input-goals">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+                  soluta iure? Eos ab expedita, perferendis qui hic omnis rerum
+                  sit eum.
+                </p>
+              </fieldset>
+            </section>
+          </div>
+          <div id="right">
+            <section>
+              <fieldset>
+                <legend>About ME</legend>
+                <p id="input-about">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi consequatur eaque magnam expedita fugiat totam
+                  cupiditate accusamus amet nam, nec dignissimos.
+                </p>
+              </fieldset>
+            </section>
+            <section>
+              <fieldset>
+                <legend>skills</legend>
+                <ul id="skillsUi">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Next JS</li>
+                  <li>Typescript</li>
+                </ul>
+              </fieldset>
+            </section>
+            <section>
+              <fieldset>
+                <legend>Experience</legend>
+                <ul id="expUi">
+                  <li>Enterprenur</li>
+                  <li>Digital Marketing Export</li>
+                  <li>Web Develope</li>
+                  <li>Businessman</li>
+                </ul>
+              </fieldset>
+            </section>
+          </div>
+        </section>
+      </main>
+      <button id="Createcv">Create Resume</button>
+    </div>
+
+    <!--Input form  -->
+    <div id="formdiv" style="display: none;">
+      <h1 id="resumeForm">Resume Form</h1><hr>
+      <form id="form" >
+        <label id="nameLabel">Name:</label>
+        <label id="occupationLabel">Occupation:</label><br>
+        <input type="text" id="name" placeholder="enter name" />
+        <input type="text" id="occupation" placeholder="enter occupation" /><br>
+        <label id="emailLabel">Email:</label>
+        <label id="contactLabel">Contact Details:</label><br>
+        <input type="email" id="email" placeholder="enter your Email" />
+        <input type="text" id="number" placeholder="enter Phone number" /><br>
+        <label id="educationLabel">Education:</label>
+        <label id="experienceLabel">Experience</label><br>
+        <input type="text" id="education" placeholder="enetr your education" />
+        <input
+          type="text"
+          id="experience"
+          placeholder="enter your Experiences"
+        /><br/>
+        <label id="goalsLabel">Goals:</label>
+        <label id="skillsLabel">Skills:</label><br>
+        <input type="text" id="goals" placeholder="write about your goals" />
+        <input type="text" id="skills" placeholder="enter your Skills " /><br>
+        <label id="aboutLabel">About:</label><br>
+        <textarea id="about" rows="1" placeholder="write about your self"></textarea><br>
+        <button id="submitbtn" type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
